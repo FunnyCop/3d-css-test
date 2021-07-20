@@ -21,3 +21,6 @@ yarn-error.log*
 
 # Build
 /3d-css-test-win32-x64
+
+# vs code settings
+/.vscode
