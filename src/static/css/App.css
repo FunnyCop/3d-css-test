@@ -21,18 +21,18 @@
   position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-animation: sceneRotate 30s infinite linear;
-          animation: sceneRotate 30s infinite linear;
+  -webkit-animation: rotateScene 30s infinite linear;
+          animation: rotateScene 30s infinite linear;
 }
 
-@-webkit-keyframes sceneRotate {
+@-webkit-keyframes rotateScene {
   to {
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
   }
 }
 
-@keyframes sceneRotate {
+@keyframes rotateScene {
   to {
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
