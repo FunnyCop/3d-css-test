@@ -1,2 +1,0 @@
-(this["webpackJsonp3d-css-test"]=this["webpackJsonp3d-css-test"]||[]).push([[0],{10:function(e,t,n){},11:function(e,t,n){"use strict";n.r(t);n(1);var s=n(3),i=n.n(s),c=(n(8),n(0)),d=function(){return Object(c.jsx)("div",{id:"App",children:Object(c.jsxs)("div",{id:"Scene",children:[Object(c.jsx)("div",{id:"Text",children:Object(c.jsx)("p",{children:"mayonnaise is not an instrument"})}),Object(c.jsx)("div",{id:"Floor"})]})})};n(10);i.a.render(Object(c.jsx)(d,{}),document.getElementById("root"))},8:function(e,t,n){}},[[11,1,2]]]);
-//# sourceMappingURL=main.2ff79ba3.chunk.js.map
