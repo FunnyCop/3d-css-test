@@ -4,5 +4,8 @@ The sass and css files are in separate folders inside 'src/static'.
 To run just as a React Server use 'npm start'.
 
 To build the Electron Client, use 'electron-packager'.
-'electron-packager <sourcedir> <appname> --platform=win32 --arch=x64'
+
+'npm run build'
+'electron-packager ./ 3d-css-test --platform=win32 --arch=x64'
+
 Use other options for non-Windows devices.
