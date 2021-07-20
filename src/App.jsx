@@ -10,6 +10,12 @@ const App = () => {
           <p>mayonnaise is not an instrument</p>
         </div>
 
+        <div id = "RightSide" className = "Side"></div>
+        <div id = "LeftSide" className = "Side"></div>
+        <div id = "BackSide" className = "Side"></div>
+        <div id = "Bottom" className = "Side"></div>
+        <div id = "Top" className = "Side"></div>
+
         <div id = "Floor"></div>
       </div>
     </div>

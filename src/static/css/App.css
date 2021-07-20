@@ -59,20 +59,71 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transform: translateZ(calc( 1.2em + 5px));
+          transform: translateZ(calc( 1.2em + 5px));
 }
 
 p {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 10em;
+  height: 1.6em;
   padding: 10px;
   background-color: #fff3;
-  color: white;
-  border: 1px solid whitesmoke;
+  color: red;
+  border: 1px solid grey;
   position: absolute;
   top: -1em;
   text-align: center;
   font-size: .5em;
   text-shadow: 1px 1px 3px #000;
-  background-image: radial-gradient(#0000, #0005 99%);
+  -webkit-box-shadow: 0 0 0.1em #000 inset;
+          box-shadow: 0 0 0.1em #000 inset;
+}
+
+.Side {
+  height: 1.6em;
+  background-color: #fff3;
+  border: 1px solid grey;
+  position: absolute;
+  top: -1em;
+  left: -5em;
+  font-size: .5em;
+  -webkit-box-shadow: 0 0 0.1em #000 inset;
+          box-shadow: 0 0 0.1em #000 inset;
+}
+
+#BackSide {
+  width: 10em;
+  -webkit-transform: translateZ(-2.5em);
+          transform: translateZ(-2.5em);
+}
+
+#RightSide, #LeftSide {
+  width: 5em;
+}
+
+#RightSide {
+  left: 2.5em;
+  -webkit-transform: rotateY(-90deg);
+          transform: rotateY(-90deg);
+}
+
+#LeftSide {
+  -webkit-transform: rotateY(-90deg) translateZ(2.5em);
+          transform: rotateY(-90deg) translateZ(2.5em);
+}
+
+#Bottom {
+  width: 10em;
+  height: 5em;
+  -webkit-transform: rotateX(-90deg) translateZ(-46px);
+          transform: rotateX(-90deg) translateZ(-46px);
+  -webkit-box-shadow: 0 0 0.2em #000 inset;
+          box-shadow: 0 0 0.2em #000 inset;
+}
+
+#Top {
+  width: 10em;
+  height: 5em;
+  -webkit-transform: rotateX(90deg) translateZ(2.5em);
+          transform: rotateX(90deg) translateZ(2.5em);
 }
